@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Given list of competitors and a list of reviews (which may have competitors related),
+ * crawl this list of reviews finding the top n competitors mentioned and return then ordened by most mentioned competitor
+ *
+ */
+
 public class CompetitorExercise {
     public static ArrayList<String> getCompetitors(int nCompetitors,
                                                    int topCompetitors,
